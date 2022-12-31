@@ -642,7 +642,7 @@ Random Forests were selected for their strong predictive power. They are able to
 
 Gradient Boosting was selected because it is also known to be a strong learner. Specifically, gradient boosting greedily improves on models in an iterative manner, meaning it is likely to produce a model with a high prediction accuracy as well. Similarly to trees, feature importance scores can be obtained from gradient boosting for interpretability.
 
-Mutli-Layer Perceptrons were selected because there is a significant amount of data (>10000 observations per class), and they have the ability to solve complex nonlinear problems. However, their usefulness is likely limited to task 1 alone, as the weights in a MLP are difficult to interpret.
+Multi-Layer Perceptrons were selected because there is a significant amount of data (>10000 observations per class), and they have the ability to solve complex nonlinear problems. However, their usefulness is likely limited to task 1 alone, as the weights in a MLP are difficult to interpret.
 
 
 ```python
