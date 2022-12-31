@@ -6,7 +6,7 @@ The first task is to predict which recipes are from asian cuisines. For the purp
 
 The second task is to identify which ingredients are most important when determining whether a recipe is asian or not. Many cuisines include similar ingredients. For example, onions may be used in Chinese stir frys, French sauces, and Mexican tacos. However, other ingredients are more unique to certain cuisines. For example, one would not expect Mexican masa to appear in a Thai dish. Thus, the goal of this task is to discover the most defining ingredients in asian cuisine.
 
-A detailed description of the methods and models used are included in both markdown and PDF form. 
+A detailed description of the methods and models used are included in the analysis file.
 
 # Results
 The MLP with 2 hidden layers achieved the highest classification accuracy for task 1 (~96% correct on the test set). The logistic regression, random forest, and gradient boosting algorithms also achieved over 95% accuracy on the test data. 
